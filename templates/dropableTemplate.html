@@ -1,0 +1,12 @@
+<table>
+    <thead>
+        <tr>
+            <th>Drop Below</th>
+        </tr>
+    </thead>
+    <tbody ondrop="drop(event)" ondragover="allowDrop(event)">
+        <tr ng-repeat="item in items track by $index">
+            <td>{{item}}</td>
+        </tr>
+    </tbody>
+</table>

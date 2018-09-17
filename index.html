@@ -1,0 +1,15 @@
+<html ng-app="appModule">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="dist/bundle.min.css">
+</head>
+
+<body>
+    <div id="container" ng-controller="itemController">
+       <dragable-list></dragable-list>
+       <dropable-list items="cart" helper="numaric"></dropable-list>
+    </div>
+    <script src="dist/bundle.min.js"></script>
+</body>
+
+</html>
