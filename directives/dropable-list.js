@@ -1,14 +1,17 @@
-/*
+(function() {
+  "use strict";
+  /*
     dropable list is a custom directive.
     attributes: 
         items - array of items
-*/
-angular.module("appModule").directive("dropableList", function() {
+  */
+  angular.module("appModule").directive("dropableList", function() {
     return {
-     scope: {
+      scope: {
         items: "=",
-        numaricConverter: '&helper'
+        numaricConverter: "&helper"
       },
-      templateUrl:"./templates/dropableTemplate.html"
+      templateUrl: "./templates/dropableTemplate.html"
     };
   });
+})();

@@ -10,7 +10,6 @@ function drag(ev) {
   ev.dataTransfer.setData("item", ev.target.innerText);
 }
 
-
 /*
   Fetching stored value while dragging and passing this value to angular
 */

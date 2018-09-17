@@ -1,3 +1,5 @@
+(function(){
+  'use strict'
 /*
     To load more records.
 */
@@ -20,3 +22,4 @@ angular.module("appModule").directive("scrollMore", function() {
       }
     };
   });
+})();

@@ -1,3 +1,5 @@
+(function(){
+  'use strict'
 /*
   Item controller which has functionality to fetch records based on list limit, searchable, cart capability
 */
@@ -51,3 +53,4 @@ angular.module("appModule").controller("itemController", [
       };
     }
   ]);
+})();
