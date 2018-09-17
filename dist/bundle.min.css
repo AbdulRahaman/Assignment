@@ -1,1 +1,1 @@
-tbody{display:block;overflow:auto;height:150px;border-collapse:collapse}th{height:40px}th input[type=text]{border-radius:3px}td{height:30px;width:120px;margin:0;padding:5px;border:1px solid #000}
+dragable-list{float:left}dropable-list{float:left;margin-left:10px;padding:0 10px;border-left:solid 1px #c8c8c8}dragable-list table,dropable-list table{border-bottom:solid 1px}tbody{display:block;overflow:auto;height:150px;border-collapse:collapse}th{height:40px}th input[type=text]{border-radius:3px}td{height:30px;width:120px;margin:0;padding:5px;border:1px solid #000}

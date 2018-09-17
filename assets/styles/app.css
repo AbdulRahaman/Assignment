@@ -1,3 +1,19 @@
+
+dragable-list{
+    float: left;
+}
+
+dropable-list{
+    float: left;
+    margin-left: 10px;
+    padding: 0px 10px;
+    border-left: solid 1px #c8c8c8;
+}
+
+dragable-list table, dropable-list table{
+ border-bottom: solid 1px;
+}
+
 tbody {
     display: block;
     overflow: auto;
